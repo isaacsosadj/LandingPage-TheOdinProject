@@ -8,6 +8,7 @@
 html {
     box-sizing: border-box;
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 *,
@@ -48,8 +49,6 @@ a {
 }
 
 .nav__logo {
-    /* font-size: 2.4rem;
-    color: var(--primaryText); */
     width: 50px;
 }
 
@@ -68,7 +67,7 @@ a {
     padding: 10rem 0;
     gap: 10rem;
 }
-
+    
 .bottom__main {
     flex: 1;
 }
@@ -97,4 +96,39 @@ a {
     border-radius: 0.5rem;
     cursor: pointer;
     font-weight: bold;
+}
+
+.information {
+    text-align: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem 0 7rem 0;
+}
+
+.information__title {
+    font-size: 3.6rem;
+    font-weight: 900;
+    color: var(--dark);
+}
+.information__images {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.information__image{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.information__image img {
+    width: 15rem;
+    flex: 1;
+}
+
+.information__image p {
+    color: #1F2937;
 }
