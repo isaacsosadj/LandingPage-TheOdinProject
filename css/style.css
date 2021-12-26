@@ -1,7 +1,7 @@
 :root {
     --dark: #1F2937;   
-    --primaryText: #F9F4F8;
-    --secondayText: #E5E7EB;
+    --white: #F9F4F8;
+    --gray: #E5E7EB;
     --button: #3882F6;
 }
 
@@ -29,7 +29,7 @@ img {
 
 a {
     text-decoration: none;
-    color: var(--secondayText);
+    color: var(--gray);
     font-size: 1.8rem;
 }
 .container {
@@ -80,13 +80,13 @@ a {
 .bottom__title {
     font-size: 4.8rem;
     font-weight: 900;
-    color: var(--primaryText);
+    color: var(--white);
     margin-bottom: 0;
 }
 
 .bottom__subtext {
     font-size: 1.8rem;
-    color: var(--secondayText);
+    color: var(--gray);
     margin-top: 0;
 }
 
@@ -131,4 +131,28 @@ a {
 
 .information__image p {
     color: #1F2937;
+}
+
+.quote {
+    background-color: var(--gray);
+    padding: 5rem 0;
+}
+
+.quote__content {
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+.quote__text {
+    font-size: 3.6rem;
+    font-style: italic;
+    color: var(--dark);
+    /* text-align: right; */
+}
+
+.quote__author {
+    color: var(--dark);
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: right;
 }
