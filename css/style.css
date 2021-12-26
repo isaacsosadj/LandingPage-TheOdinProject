@@ -2,7 +2,7 @@
     --dark: #1F2937;   
     --white: #F9F4F8;
     --gray: #E5E7EB;
-    --button: #3882F6;
+    --blue: #3882F6;
 }
 
 html {
@@ -32,9 +32,17 @@ a {
     color: var(--gray);
     font-size: 1.8rem;
 }
+
 .container {
     max-width: 100rem;
     margin: 0 auto;
+}
+
+.button {
+    padding: 1rem 4rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-weight: bold;
 }
 
 .header {
@@ -91,11 +99,7 @@ a {
 }
 
 .bottom__button {
-    background-color: var(--button);
-    padding: 1rem 4rem;
-    border-radius: 0.5rem;
-    cursor: pointer;
-    font-weight: bold;
+    background-color: var(--blue);
 }
 
 .information {
@@ -155,4 +159,35 @@ a {
     font-size: 3rem;
     font-weight: 800;
     text-align: right;
+}
+
+.random{
+    color: var(--white);
+    margin: 10rem 0;
+    font-size: 2rem;
+}
+
+.random__content {
+    background-color: var(--blue);
+    padding: 6rem 10rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.random__content p {
+    margin: 0;
+}
+
+.random__text--bold {
+    font-weight: bold;
+}
+
+.random__text--italic {
+    font-style: italic;
+}
+
+.button--random {
+    border: 2px solid var(--white);
 }

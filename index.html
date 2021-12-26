@@ -13,6 +13,7 @@
     />
     <link rel="stylesheet" href="css/style.css" />
   </head>
+
   <body>
     <header class="header">
       <div class="container">
@@ -23,9 +24,9 @@
             alt=""
           />
           <ul class="nav__links">
-            <li><a href="#random__inf">Randon Things</a></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
+            <li><a href="#random__section">Random Things</a></li>
+            <li><a href="#quote__section">Random quote</a></li>
+            <li><a href="#random__section">Link</a></li>
           </ul>
         </nav>
 
@@ -36,7 +37,7 @@
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil
               doloribus, placeat fuga eveniet obcaecati iure tempora!
             </p>
-            <a class="bottom__button">Am I a button?</a>
+            <a class="button bottom__button">Am I a button?</a>
           </div>
 
           <div class="bottom__placeholder">
@@ -49,7 +50,7 @@
       </div>
     </header>
 
-    <section id="random__inf" class="information">
+    <section id="random__section" class="information">
       <h2 class="information__title">Some random information</h2>
       <div class="information__images">
         <div class="information__image">
@@ -76,11 +77,20 @@
 
     <section class="quote" id="quote__section">
       <div class="quote__content">
-        <p class="quote__text">
-          If there is no randomness in the universe, then what do we mean by chaos?
-        </p>
+        <p class="quote__text">If there is no randomness in the universe, then what do we mean by chaos?</p>
         <p class="quote__author">-Rupert Sheldrake</p>
       </div>
     </section>
+
+    <div class="random" id="random__section">
+        <div class="container random__content">
+            <div class="random__text">
+                <p class="random__text--bold">Just another random section!</p>
+                <p class="random__text--italic">For your safety don't click the button right over there</p>
+            </div>
+            
+            <a class="button button--random">Don't click me</a>    
+        </div>
+    </div>
   </body>
 </html>
