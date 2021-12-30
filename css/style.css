@@ -75,7 +75,7 @@ a {
     padding: 10rem 0;
     gap: 10rem;
 }
-    
+
 .bottom__main {
     flex: 1;
 }
@@ -83,7 +83,6 @@ a {
 .bottom__placeholder {
     flex: 1;
 }
-
 
 .bottom__title {
     font-size: 4.8rem;
@@ -151,7 +150,6 @@ a {
     font-size: 3.6rem;
     font-style: italic;
     color: var(--dark);
-    /* text-align: right; */
 }
 
 .quote__author {
@@ -188,7 +186,7 @@ a {
     font-style: italic;
 }
 
-.button--random {
+.button--border {
     border: 2px solid var(--white);
 }
 
@@ -199,3 +197,4 @@ a {
     color: var(--white);
     font-size: 1.8rem;
 }
+
